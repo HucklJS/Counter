@@ -28,13 +28,16 @@ body {
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.buttons-block {
+.buttons-block,
+.extra-buttons-block {
     display: flex;
     justify-content: space-around;
     width: 300px;
+    margin-bottom: 33px;
 }
 
-.buttons-block .button {
+.buttons-block .button,
+.extra-buttons-block .button {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -60,4 +63,17 @@ body {
 .buttons-block .button img {
     margin-top: 9px;
     margin-left: 9px;
+}
+
+.extra-buttons-block .download-btn {
+    background: #30d9cf;
+}
+
+.extra-buttons-block .upload-btn {
+    background: #9b0f9e;
+}
+
+.extra-buttons-block .button img {
+    margin-top: 4px;
+    margin-left: 4px;
 }
